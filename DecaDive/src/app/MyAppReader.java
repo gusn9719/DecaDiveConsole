@@ -11,7 +11,14 @@ public class MyAppReader {
 	}
 
 	public int readInt(String message) {
-		System.out.print(message);
-		return Integer.parseInt(sc.nextLine());
+	    while (true) {
+	        System.out.print(message);
+	        String input = sc.nextLine().strip();
+	        try {
+	            return Integer.parseInt(input);
+	        } catch (NumberFormatException e) {
+	            System.out.println("정수만 입력하세요! ex) 1");
+	        }
+	    }
 	}
 }

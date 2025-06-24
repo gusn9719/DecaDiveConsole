@@ -30,8 +30,8 @@ public class DecaDiveConsoleApp {
 	String[] cartMenuList = { "돌아가기", "상품 주문", "상품 삭제", "장바구니 비우기" };
 	String[] myInfoMenuList = { "돌아가기", "비밀번호 변경", "회원 탈퇴" };
 
-	String[] decaMenuList = { "종료", "80s", "90s", "00s" };
-	String[] CategoryMenuList = { "종료", "WALL", "DESK", "TECH", "COMICS", "FASHION" };
+	String[] decaMenuList = { "이전", "80s", "90s", "00s" };
+	String[] CategoryMenuList = { "이전", "WALL", "DESK", "TECH", "COMICS", "FASHION" };
 
 	final String CONFIRM = "yes";
 
@@ -100,14 +100,14 @@ public class DecaDiveConsoleApp {
 
 			displayDecaList(decaMenuList[menu]);
 
-		} while (menu != 0 && diveLevel != 0);
+		} while (menu != 0);
 
 	}
 
 	private void displayDecaList(String menu) {
 		// 연도별
 		List<ItemVO> ItemList = is.listItemsByDecade(menu);
-
+		if(menu == "이전")  return;
 		System.out.println("===========================================");
 		if (ItemList.isEmpty())
 			System.out.println("등록된 상품이 없습니다.");
@@ -128,8 +128,9 @@ public class DecaDiveConsoleApp {
 
 		do { // "WALL", "DESK", "TECH", "COMICS", "FASHION"
 			menu[0] = selectMenu(decaMenuList);
+			if(menu[0] == 0) return;
 			menu[1] = selectMenu(CategoryMenuList);
-
+			if(menu[1] == 0) return;
 			displayDecaDiveList(decaMenuList[menu[0]], CategoryMenuList[menu[1]]);
 
 		} while (menu[0] != 0 && menu[1] != 0 && diveLevel != 0);
