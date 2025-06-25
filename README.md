@@ -37,8 +37,9 @@ DecaDive는 단순한 쇼핑을 넘어, 특정 시대의 추억과 향수를 탐
 ## 📈 유스케이스 다이어그램
 
 DecaDive 애플리케이션의 사용자 유형별 기능과 전체적인 시스템의 상호작용은 아래와 같습니다.
+![데카다이브_유스케이스](https://github.com/user-attachments/assets/c47b05d4-2e40-4d92-a530-dd72c0040a43)
 
-![데카다이브_유스케이스](https://github.com/user-attachments/assets/c15b9745-f483-4a1d-91b6-f28325a74d28)
+
 
 ## 🏛️ 클래스 다이어그램
 
