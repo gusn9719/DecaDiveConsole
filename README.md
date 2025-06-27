@@ -47,7 +47,7 @@ https://github.com/user-attachments/assets/17be2348-c7de-4e69-bdcc-f269d0342fb1
 
 
 <details>
-<summary><b>기능 요구사항 (Functional Requirements)</b> - 클릭하여 보기/접기</summary>
+<summary><b>기능 요구사항 상세 (Functional Requirements)</b> - 클릭하여 보기/접기</summary>
 
 #### **상세 기능 명세**
 
@@ -67,7 +67,7 @@ https://github.com/user-attachments/assets/17be2348-c7de-4e69-bdcc-f269d0342fb1
 </details>
 
 <details>
-<summary><b>비기능 요구사항 (Non-functional Requirements)</b> - 클릭하여 보기/접기</summary>
+<summary><b>비기능 요구사항 상세(Non-functional Requirements)</b> - 클릭하여 보기/접기</summary>
 
 
 #### **상세 비기능 명세**
