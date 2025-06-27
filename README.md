@@ -14,7 +14,11 @@
 
 ## 🎬 시연 영상
 
-  * **비회원 시연**: [영상 링크](https://youtu.be/BYv7NMw5qdg) (상품 둘러보기, 회원가입, 로그인 과정)
+  * **비회원 시연**:
+
+https://github.com/user-attachments/assets/17be2348-c7de-4e69-bdcc-f269d0342fb1
+
+ (상품 둘러보기, 회원가입, 로그인 과정)
   * **회원 시연**: [영상 링크](https://youtu.be/Bwb5YnfAoQQ) (상품 구매, 장바구니, 회원정보 수정 과정)
   * **관리자 시연**: [영상 링크](https://youtu.be/mCZHnqYGMlI) (상품, 회원, 주문 관리 과정)
 
