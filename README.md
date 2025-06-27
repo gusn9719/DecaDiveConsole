@@ -42,8 +42,8 @@
 
 
 
-\<details\>
-\<summary\>\<b\>기능 요구사항 (Functional Requirements) - 요약 보기/접기\</b\>\</summary\>
+<details>
+<summary><b>기능 요구사항 (Functional Requirements)</b> - 클릭하여 보기/접기</summary>
 
 #### **상세 기능 명세**
 
@@ -60,10 +60,11 @@
     ![데카_명세_기능_장바구니](https://github.com/user-attachments/assets/df16230a-06a3-4088-8341-65b069e306d0)
 
 
-\</details\>
+</details>
 
-\<details\>
-\<summary\>\<b\>비기능 요구사항 (Non-functional Requirements) - 요약 보기/접기\</b\>\</summary\>
+<details>
+<summary><b>비기능 요구사항 (Non-functional Requirements)</b> - 클릭하여 보기/접기</summary>
+
 
 #### **상세 비기능 명세**
 
@@ -74,7 +75,7 @@
     ![데카_명세_비기능_시스템 환경](https://github.com/user-attachments/assets/a941decd-992d-405b-9b75-a1f07147056e)
 
 
-\</details\>
+</details>
 
 ----
 
